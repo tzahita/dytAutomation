@@ -1,5 +1,19 @@
 {
+  "name": "cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzahita/dytAutomation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tzahita/dytAutomation/issues"
+  },
   "scripts": {
     "cypress:open": "cypress open"
-  }
+  },
+  "homepage": "https://github.com/tzahita/dytAutomation#readme",
+  "description": ""
 }

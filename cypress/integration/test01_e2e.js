@@ -5,7 +5,6 @@ describe('E2E', function () {
     before(function () {
         cy.visit(cons.BASE_URL);
         cy.contains(cons.CONTEXT_HOMEPAGE);
-         
     })
     it('Init US section', function () {
         expect(true).to.equals(true)
