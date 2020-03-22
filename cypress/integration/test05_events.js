@@ -9,6 +9,10 @@ describe('Events', function () {
         cy.get(cons.$SECTION_BUTTON).click();
         cy.url().should('eq', cons.BASE_URL_US_PARAM)
     })
+    it('Validate and close overlay', function () {
+        cy.contains(cons.US_OVERLAY_TEXT);
+        cy.get(cons.X_US_OVERLAY).click();
+    })
     it('Purchase event', function () {
         cy.get(cons.$PURCHASE_INPUT).type(cons.CONTEXT_DATA_US)
         cy.get(cons.$PURCHASE_BUTTON).click()
