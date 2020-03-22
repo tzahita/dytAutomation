@@ -1,5 +1,9 @@
 import * as cons from '../const.js';
 describe('Change section by value - US', function () {
+    before(function () {
+        cy.visit(cons.BASE_URL);
+        cy.contains(cons.CONTEXT_HOMEPAGE);
+    })
     it('Init US section', function () {
         cy.get(cons.$SECTION_ID).type(cons.US_SECTION_ID);
         cy.get(cons.$SECTION_BUTTON).click();
