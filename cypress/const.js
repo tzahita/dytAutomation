@@ -1,7 +1,10 @@
 // urls
-export const BASE_URL = "https://dynamictumbler.tumblr.com/"
-export const BASE_URL_US_PARAM = "https://dynamictumbler.tumblr.com/?&SectionId=8772707"
-export const BASE_URL_EU_PARAM = "https://dynamictumbler.tumblr.com/?&SectionId=9876496"
+// export const BASE_URL = "https://dynamictumbler.tumblr.com/"
+export const BASE_URL = "https://testwebsite.dy.dev/"
+// export const BASE_URL_EU_PARAM = "https://dynamictumbler.tumblr.com/?&SectionId=9876496"
+export const BASE_URL_EU_PARAM = "https://testwebsite.dy.dev/?&SectionId=9876496"
+// export const BASE_URL_US_PARAM = "https://dynamictumbler.tumblr.com/?&SectionId=8772707"
+export const BASE_URL_US_PARAM = "https://testwebsite.dy.dev/?&SectionId=8772707"
 // settings
 export const SCRIPT_VERSION = '12361'
 export const US_SECTION_ID = '8772707'

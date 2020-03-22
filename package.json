@@ -12,7 +12,8 @@
     "url": "https://github.com/tzahita/dytAutomation/issues"
   },
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "homepage": "https://github.com/tzahita/dytAutomation#readme",
   "description": ""
