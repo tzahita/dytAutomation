@@ -1,12 +1,12 @@
 // urls
-// export const BASE_URL = "https://dynamictumbler.tumblr.com/"
 export const BASE_URL = "https://testwebsite.dy.dev/"
-// export const BASE_URL_EU_PARAM = "https://dynamictumbler.tumblr.com/?&SectionId=9876496"
-export const BASE_URL_EU_PARAM = "https://testwebsite.dy.dev/?&SectionId=9876496"
-// export const BASE_URL_US_PARAM = "https://dynamictumbler.tumblr.com/?&SectionId=8772707"
-export const BASE_URL_US_PARAM = "https://testwebsite.dy.dev/?&SectionId=8772707"
+export const BASE_URL_EU_PARAM = "https://testwebsite.dy.dev/?&sectionId=9876496"
+export const BASE_URL_US_PARAM = "https://testwebsite.dy.dev/?&sectionId=8772707"
+// export const BASE_URL = "https://dynamictumbler.tumblr.com/"
+// export const BASE_URL_EU_PARAM = "https://dynamictumbler.tumblr.com/?&sectionId=9876496"
+// export const BASE_URL_US_PARAM = "https://dynamictumbler.tumblr.com/?&sectionId=8772707"
 // settings
-export const SCRIPT_VERSION = '12361'
+export const SCRIPT_VERSION = '12368'
 export const US_SECTION_ID = '8772707'
 export const EU_SECTION_ID = '9876496'
 export const EMAIL = 'tzahi.tamam@dynamicyield.com'
@@ -43,3 +43,5 @@ export const $ADD_TO_CART_BUTTON = '#addToCart'
 export const $LOGIN_BUTTON = '#logIn'
 export const $OPTIN_BUTTON = '#sendOptIn'
 export const $OPTOUT_BUTTON = '#sendOptOut'
+// elements
+export const $CART_VALUE = '#cartList > tbody > tr:nth-child(2) > td:nth-child(1)'
