@@ -6,7 +6,7 @@ export const BASE_URL_US_PARAM = "https://testwebsite.dy.dev/?&sectionId=8772707
 // export const BASE_URL_EU_PARAM = "https://dynamictumbler.tumblr.com/?&sectionId=9876496"
 // export const BASE_URL_US_PARAM = "https://dynamictumbler.tumblr.com/?&sectionId=8772707"
 // settings
-export const SCRIPT_VERSION = '12368'
+export const SCRIPT_VERSION = '12367'
 export const US_SECTION_ID = '8772707'
 export const EU_SECTION_ID = '9876496'
 export const EMAIL = 'tzahi.tamam@dynamicyield.com'

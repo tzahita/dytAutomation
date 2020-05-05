@@ -13,16 +13,17 @@ describe('Events', function () {
         cy.contains(cons.US_OVERLAY_TEXT);
         cy.get(cons.X_US_OVERLAY).click();
     })
-    it('Purchase event', function () {
-        cy.get(cons.$PURCHASE_INPUT).type(cons.CONTEXT_DATA_US)
-        cy.get(cons.$PURCHASE_BUTTON).click()
+    it('Add to cart', function () {
+        cy.get(cons.$ADD_TO_CART_INPUT).type(cons.CONTEXT_DATA_US)
+        cy.get(cons.$ADD_TO_CART_BUTTON).click()
         cy.server().should((server) => {
             expect(server.status).to.eq(200)
         })
+        cy.get(cons.$CART_VALUE).contains(cons.CONTEXT_DATA_US)
+
     })
-    it('Add to cart event', function () {
-        cy.get(cons.$ADD_TO_CART_INPUT).type(cons.CONTEXT_DATA_US)
-        cy.get(cons.$ADD_TO_CART_BUTTON).click()
+    it('Purchase event', function () {
+        cy.get(cons.$PURCHASE_BUTTON).click()
         cy.server().should((server) => {
             expect(server.status).to.eq(200)
         })
