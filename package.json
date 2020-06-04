@@ -13,7 +13,8 @@
   },
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run --record --key 0eeecd63-f9b1-42b3-8359-ff136a407e80",
+    "run": "cypress run --record --key 0eeecd63-f9b1-42b3-8359-ff136a407e80"
   },
   "homepage": "https://github.com/tzahita/dytAutomation#readme",
   "description": "",

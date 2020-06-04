@@ -6,7 +6,7 @@ export const BASE_URL_US_PARAM = "https://testwebsite.dy.dev/?&sectionId=8772707
 // export const BASE_URL_EU_PARAM = "https://dynamictumbler.tumblr.com/?&sectionId=9876496"
 // export const BASE_URL_US_PARAM = "https://dynamictumbler.tumblr.com/?&sectionId=8772707"
 // settings
-export const SCRIPT_VERSION = '12367'
+export const SCRIPT_VERSION = '12372'
 export const US_SECTION_ID = '8772707'
 export const EU_SECTION_ID = '9876496'
 export const EMAIL = 'tzahi.tamam@dynamicyield.com'
@@ -31,7 +31,7 @@ export const $SECTION_ID = '#section_id'
 export const $CONTEXT_DD = '#contextDD'
 export const $CONTEXT_DATA = '#sku_conteiner > div > input'
 export const $PURCHASE_INPUT = 'body > div.container-fluid.row > aside:nth-child(3) > div > div > form:nth-child(3) > input.form-control.input-group.input-group-sm.mb-2'
-export const $ADD_TO_CART_INPUT = 'body > div.container-fluid.row > aside:nth-child(3) > div > div > form:nth-child(4) > input.form-control.input-group.input-group-sm.mb-2'
+export const $ADD_TO_CART_INPUT = 'body > div.container-fluid.row > aside:nth-child(3) > div > div > form:nth-child(3) > label:nth-child(2) > input'
 export const $LOGIN_INPUT = 'body > div.container-fluid.row > aside:nth-child(3) > div > div > form.form-group > input.form-control.input-group.input-group-sm.mb-2'
 export const $OPTIN_INPUT = '#optInEmail'
 export const $OPTOUT_INPUT = '#optOutEmail'
