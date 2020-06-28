@@ -3,6 +3,9 @@ import * as cons from '../const.js';
 describe('E2E', () => {
 
     before(() => {
+        sessionStorage.clear();
+        localStorage.clear();
+        cy.clearCookies()
         cy.visit(cons.BASE_URL);
         cy.contains(cons.CONTEXT_HOMEPAGE);
     })

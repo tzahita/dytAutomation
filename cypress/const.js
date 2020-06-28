@@ -19,6 +19,7 @@ export const DYO = 'DYO'
 export const DY = 'DY'
 // campaigns
 export const X_US_OVERLAY = `.dy-act-overlay .dy-lb-close`
+export const X_EU_OVERLAY = `.dy-lb-close`
 export const US_OVERLAY_TEXT = 'Get 20% Off'
 export const EU_OVERLAY_TEXT = '20% Off Everything'
 // header
